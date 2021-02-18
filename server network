@@ -1,0 +1,18 @@
+1.
+Create a new .sh file in profile.d
+write in file:
+export http_proxy=http://www-proxy.waseda.jp:8080/
+export https_proxy=http://www-proxy.waseda.jp:8080/
+export no_proxy=localhost,192.168.*.*,133.9.*.*,127.0.0.1,.local
+
+2.
+Set port forwarding
+
+192.168.11.1
+psword: password
+
+sshDL   TCP: choose one port     SSH:22
+sshTR   TCP:choose one port   SSH:22
+
+reboot
+
